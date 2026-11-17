@@ -304,7 +304,28 @@ project during the Def-Space Autumn Internship 2026.
 
 ### 7. Engineering Report
 [View Sample Engineering PDF Report](screenshots/Aircraft_Performance_Report%20(2).pdf)
+## 🚀 Key Features
 
+- **Aircraft Performance Analysis:** Calculates lift, drag, stall speed, and lift-to-drag ratio.
+- **Advanced Aerodynamic Analysis:** Evaluates induced drag, total drag coefficient, power required, and aerodynamic efficiency.
+- **Aircraft Design Comparison:** Compares multiple aircraft configurations using performance parameters.
+- **Design Optimization:** Helps identify suitable aircraft design parameters based on selected constraints.
+- **Flight Performance Analysis:** Evaluates aircraft performance under different flight conditions.
+- **3D Aircraft Geometry Visualization:** Generates a 3D representation of the wing using geometric design parameters.
+- **Engineering Report Generator:** Creates downloadable PDF reports containing analysis results.
+
+## 🔮 Future Enhancements
+
+- Integration of real-world aircraft performance datasets.
+- More advanced aerodynamic models and analysis methods.
+- Detailed aircraft configuration and wing-design options.
+- Improved interactive 3D aircraft visualization.
+- Export options for additional engineering report formats.
+- Validation of simulation results against experimental or published aircraft data.
+
+## 🎯 Project Objective
+
+The objective of this project is to develop an interactive engineering tool that combines aircraft performance calculations, aerodynamic analysis, design comparison, optimization, flight analysis, and visualization in a single platform. It is intended for educational and preliminary aircraft design studies.
 
 
 
