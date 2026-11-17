@@ -271,7 +271,7 @@ These are possible future enhancements and are not claims of features
 already implemented.
 
 Developer
-MD Rajaak
+MD REZA
 B.Tech -- Electronics and Communication Engineering
 Central University of Karnataka
 Def-Space Autumn Internship 2026
@@ -304,6 +304,62 @@ project during the Def-Space Autumn Internship 2026.
 
 ### 7. Engineering Report
 [View Sample Engineering PDF Report](screenshots/Aircraft_Performance_Report%20(2).pdf)
+
+## 🏗️ Project Architecture & Workflow
+
+The Aircraft Design & Performance Analysis System follows a modular architecture. The Streamlit application acts as the main interface, connecting the seven analysis modules with their respective calculation, visualization, and reporting functions.
+
+### System Architecture
+
+```mermaid
+flowchart TD
+    A["User"] --> B["Streamlit User Interface<br/>app.py"]
+
+    B --> C["Aircraft Input Parameters"]
+
+    C --> D1["Basic Performance Analysis<br/>calculations.py"]
+    C --> D2["Advanced Aerodynamic Analysis<br/>calculations.py"]
+    C --> D3["Aircraft Design Comparison<br/>comparison.py"]
+    C --> D4["Design Optimization<br/>optimization.py"]
+    C --> D5["Flight Performance Analysis<br/>flight_analysis.py"]
+    C --> D6["Aircraft Geometry & 3D<br/>geometry.py"]
+    C --> D7["Engineering Report Generator<br/>report_generator.py"]
+
+    D1 --> E["Results Processing"]
+    D2 --> E
+    D3 --> E
+    D4 --> E
+    D5 --> E
+    D6 --> E
+    D7 --> E
+
+    E --> F["Visualization & Presentation<br/>visualization.py"]
+
+    F --> G1["Performance Metrics"]
+    F --> G2["Charts & Graphs"]
+    F --> G3["3D Visualization"]
+    F --> G4["CSV Export"]
+    F --> G5["PDF Engineering Report"]
+
+    G1 --> H["Final Results Display"]
+    G2 --> H
+    G3 --> H
+    G4 --> H
+    G5 --> H
+```
+
+### Workflow Description
+
+1. **User Input:** The user enters aircraft design and operating parameters through the Streamlit interface.
+2. **Data Processing:** The application passes the required parameters to the selected analysis module.
+3. **Engineering Calculations:** The modules perform aircraft performance calculations, aerodynamic analysis, comparison, optimization, flight analysis, and geometry calculations.
+4. **Visualization:** Results are presented through performance metrics, charts, graphs, and 3D geometry.
+5. **Report Generation:** Users can export analysis results through available CSV and PDF download options.
+6. **Final Output:** The application displays the calculated results in an interactive dashboard.
+
+### Modular Design
+
+Each Python module is responsible for a specific engineering task. This modular structure makes the application easier to maintain, test, and extend with additional aircraft analysis capabilities.
 ## 🚀 Key Features
 
 - **Aircraft Performance Analysis:** Calculates lift, drag, stall speed, and lift-to-drag ratio.
