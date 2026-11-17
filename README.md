@@ -282,6 +282,30 @@ https://github.com/Rajaak78-debug/Aircraft-Design-and-Performance-Analysis-Syste
 Developed as an educational aircraft-design and performance-analysis
 project during the Def-Space Autumn Internship 2026.
 
+## 📸 Application Screenshots
+
+### 1. Main Dashboard
+![Dashboard](screenshots/dashboard.jpeg)
+
+### 2. Aircraft Performance Analysis
+![Performance Analysis](screenshots/analy.png)
+
+### 3. Advanced Aerodynamic Analysis
+![Advanced Analysis](screenshots/aero.png)
+
+### 4. Aircraft Design Comparison
+![Aircraft Comparison](screenshots/comparison.png)
+
+### 5. Design Optimization
+![Optimization](screenshots/optim.png)
+
+### 6. 3D Aircraft Geometry
+![3D Aircraft](screenshots/3d%20m.png)
+
+### 7. Engineering Report
+[View Sample Engineering PDF Report](screenshots/Aircraft_Performance_Report%20(2).pdf)
+
+
 
 
 
