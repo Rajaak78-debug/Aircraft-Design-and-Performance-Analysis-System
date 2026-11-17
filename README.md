@@ -327,7 +327,91 @@ project during the Def-Space Autumn Internship 2026.
 
 The objective of this project is to develop an interactive engineering tool that combines aircraft performance calculations, aerodynamic analysis, design comparison, optimization, flight analysis, and visualization in a single platform. It is intended for educational and preliminary aircraft design studies.
 
+## ⚙️ Installation & Setup
 
+Follow these steps to run the Aircraft Design & Performance Analysis System locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Rajaak78-debug/Aircraft-Design-and-Performance-Analysis-System.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd Aircraft-Design-and-Performance-Analysis-System
+```
+
+### 3. Create a Virtual Environment (Recommended)
+
+```bash
+python -m venv venv
+```
+
+Activate the environment:
+
+**Windows (PowerShell):**
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+**Linux / macOS:**
+```bash
+source venv/bin/activate
+```
+
+### 4. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Run the Streamlit Application
+
+```bash
+python -m streamlit run app.py
+```
+
+The application will open in your default browser. If it does not, visit:
+
+```text
+http://localhost:8501
+```
+
+---
+
+## 🖥️ How to Use the Application
+
+1. Launch the Streamlit application.
+2. Select the required analysis module.
+3. Enter the aircraft design parameters, such as mass, wing area, wingspan, velocity, and air density.
+4. Click the analysis button to perform calculations.
+5. Explore the generated performance metrics, charts, comparisons, and visualizations.
+6. Use the available download options to export results and engineering reports.
+
+### Available Analysis Modules
+
+| Module | Function |
+|---|---|
+| 1 | Basic Aircraft Performance Analysis |
+| 2 | Advanced Aerodynamic Analysis |
+| 3 | Aircraft Design Comparison |
+| 4 | Aircraft Design Optimization |
+| 5 | Flight Performance Analysis |
+| 6 | Aircraft Geometry & 3D Visualization |
+| 7 | Engineering Report Generator |
+
+---
+
+## 📌 Requirements
+
+- Python 3.10 or later
+- pip package manager
+- Internet connection for initial dependency installation
+- A modern web browser
+
+**Note:** This project is intended for educational and preliminary engineering analysis. Its results should not be used as the sole basis for real-world aircraft design or flight operations.
 
 
 
